@@ -1,0 +1,83 @@
+footer{
+background-color:black;
+display: flex;
+}
+footer>nav>.div{
+    flex: 30%;
+    font-size: medium;
+}
+footer>nav>.div1{
+    flex: 40%;
+    font-size: medium;
+}
+footer>nav>.div2{
+    flex: 30%;
+    font-size: medium;
+}
+
+footer>.div>.ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    color: green;
+}
+footer>.div>.li1 a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Change the link color on hover */
+  footer>.div>.li1 a:hover {
+    background-color: #555;
+  }
+  footer>.div1>.ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    color: green;
+}
+footer>.div1>.li1 a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Change the link color on hover */
+  footer>.div1>.li1 a:hover {
+    background-color: #555;
+  }
+  footer>.div2>.ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    color: green;
+}
+footer>.div2>.li1 a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Change the link color on hover */
+  footer>.div2>.li1 a:hover {
+    background-color: #555;
+  }

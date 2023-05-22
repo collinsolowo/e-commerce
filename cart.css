@@ -1,0 +1,307 @@
+body{
+      background-color: orangered;
+      color: white;
+}
+.contain{
+      display: flex;
+}
+.contain>div{
+margin: 10px;
+color: white;
+}
+.contain>div>h1{
+      margin: 10px;
+      font-size: 60px;
+      }
+      .contain>div>h3{
+            margin: 10px;
+            font-size: 30px;
+            }
+
+.topnav {
+      overflow: hidden;
+      background-color: #e9e9e9;
+      float: right;
+      width:400px;
+  }
+
+  .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      width: 100px;
+  }
+
+  .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+
+  .topnav a.active {
+      background-color: #2196F3;
+      color: white;
+  }
+ 
+  .navbar {
+      overflow: hidden;
+      background-color: #e9e9e9;
+      display: inline-block;
+  }
+
+  .navbar a {
+      float:left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+  .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+
+  .navbar a.active {
+      background-color: #2196F3;
+      color: white;
+  }
+  @media screen and (max-width: 1000px) {
+      .row {
+          flex-direction: column;
+      }
+  }
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .side {
+      flex: 20%;
+      padding: 20px;
+      background-color: orangered;
+      text-align: left;
+  }
+  /* Responsive layout - when the screen is less than 2000px wide, make the two columns stack next to each other instead of on top of each other */
+.main {
+      flex: 80%;
+      padding: 20px;
+      background-color: orangered;
+      color: white;
+      text-align: center;
+      font-size: larger;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+      margin-top: 7%;
+  }
+  .searchbox {  
+      float: left; 
+      height: 60px; 
+      }  
+      input[type=text] {  
+      padding: 6px;  
+      margin-top: 2px;  
+      font-size: 17px;  
+      border: none;  
+      height: 50px;
+      width: 500px;
+      }  
+      .searchbox button {  
+        
+      padding: 8px;  
+      height: 100px;
+      margin-top: 10px;  
+      margin-left: 30px;  
+      background: orangered;  
+      font-size: 20px;  
+      border: none;  
+      cursor: pointer;  
+      } 
+      .button {
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: green;
+            border: none;
+            border-radius: 15px;
+            box-shadow: green;
+        }
+       
+        
+        .button:hover {
+            background-color: #3e8e41
+        } .footer {
+            background-color: black;
+            display: flex;
+            color: green;
+        }
+        .footer>h2{
+        text-align: center;
+        color: green;
+        font-size: smaller;
+        }
+        .footer> nav{
+            margin-top:60px ;
+         margin-left: 310px;
+         margin-bottom: 60px;
+            color: green;
+        }
+        #ul1{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 300px;
+            background-color: black;
+            text-align: center;
+            color: green;
+        }
+        #li1 a {
+            display: block;
+            padding: 8px 16px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
+          
+          /* Change the link color on hover */
+          #li1 a:hover {
+            background-color: #555;
+          }
+        
+          @media screen and (max-width: 1000px) {
+            .row1 {
+                flex-direction: column;
+            }
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        /* Column container */
+        .row1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .r {
+            flex: 20%;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            font-size: x-large;
+        }
+        
+        .b {
+            flex: 50%;
+            padding: 20px;
+            background-color: black;
+            color: #fff;
+        }
+        
+        .c {
+            flex: 30%;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+        .h{
+            text-indent: -47px;
+        }
+        .a1 {
+            color: green;
+            background-color: black;
+            text-align: center;
+        }
+        .footerx {
+            background-color: black;
+            display: flex;
+            color: green;
+        }
+        .footerx>h2{
+        text-align: center;
+        color: green;
+        font-size: smaller;
+        }
+        .footerx> nav{
+            margin-top:60px ;
+         margin-left: 310px;
+         margin-bottom: 60px;
+            color: green;
+        }
+        #ul1{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 300px;
+            background-color: black;
+            text-align: center;
+            color: green;
+        }
+        #li1 a {
+            display: block;
+            padding: 8px 16px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
+          
+          /* Change the link color on hover */
+          #li1 a:hover {
+            background-color: #555;
+          }
+       
+        .r {
+            flex: 20%;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            font-size: x-large;
+        }
+        
+        .b {
+            flex: 50%;
+            padding: 20px;
+            background-color: black;
+            color: #fff;
+        }
+        
+        .c {
+            flex: 30%;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+        .h{
+            text-indent: -47px;
+        }
+        .a1 {
+            color: green;
+            background-color: black;
+            text-align: center;
+        }
+         
+        
+        .button:active {
+            background-color: green;
+            box-shadow: green;
+            transform: translateY(4px);
+        }
+        

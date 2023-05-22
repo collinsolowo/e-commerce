@@ -1,0 +1,27 @@
+.body{
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.button:active {
+    background-color: green;
+    box-shadow: green;
+    transform: translateY(4px);
+}
+.button:hover {
+    background-color: #3e8e41
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: green;
+}

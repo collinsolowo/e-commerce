@@ -1,0 +1,98 @@
+body {
+    background-color: orangered;
+    color: green;
+    text-align: center;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: orangered;
+    float: right;
+    color: white;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: orangered;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orangered;
+    color: white;
+    font-size: xx-large;
+}
+
+li {
+    float: inline-end;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    font-size: xx-large;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: green;
+}
+
+a {
+    color: black;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: green;
+    box-shadow: green;
+    transform: translateY(4px);
+}
+
+.input {
+    min-width: 22%;
+    height: 50%;
+    top: 10%;
+    right: 0%;
+    z-index: 10;
+    background-color: #CCC;
+    border: 11px solid grey;
+}
+.move{
+    margin-top:14%;
+}
+.footer{
+    color: green;
+}
