@@ -179,7 +179,7 @@ li a:hover {
   }
   
   .flex-container > div {
-    padding: 25px;
+    padding: 25px; 
     font-size: 30px;
     color: yellow;
     text-decoration: none;

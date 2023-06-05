@@ -66,6 +66,10 @@ hr{
     flex-wrap: wrap;
 }
 
+.main{
+    flex:20%
+}
+
 .side {
     flex: 20%;
     padding: 20px;
